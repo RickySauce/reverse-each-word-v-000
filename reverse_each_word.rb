@@ -1,7 +1,7 @@
 sentence = "Hello there, and how are you?"
 
 def reverse_each_word(sentence)
-  sentence.split
+  sentence = sentence.split (" ")
   new_sentence = Array.new
   sentence.each do |word|
     word.reverse!
